@@ -1,0 +1,21 @@
+.floating-chat {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, #667eea, #764ba2);
+  color: white;
+  font-size: 2rem;
+  border: none;
+  cursor: pointer;
+  box-shadow: 0 8px 32px rgba(102, 126, 234, 0.5);
+  transition: transform 0.3s ease;
+  z-index: 1000;
+}
+
+.floating-chat:hover {
+  transform: translateY(-4px);
+}
+

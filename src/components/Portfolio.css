@@ -1,0 +1,111 @@
+.portfolio {
+  background: var(--bg-secondary);
+  padding: 4rem 2rem;
+  text-align: center;
+}
+
+.portfolio > h2 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+  background: var(--accent-gradient);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.subtitle {
+  color: var(--text-secondary);
+  margin-bottom: 3rem;
+  font-size: 1.1rem;
+}
+
+.portfolio-filters {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-bottom: 3rem;
+  flex-wrap: wrap;
+}
+
+.filter-btn {
+  padding: 0.7rem 1.5rem;
+  background: var(--card-bg);
+  border: 1px solid var(--card-border);
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-weight: 500;
+  color: var(--text-primary);
+}
+
+.filter-btn.active,
+.filter-btn:hover {
+  background: var(--accent-gradient);
+  color: #fff;
+  border-color: transparent;
+}
+
+.portfolio-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  gap: 2rem;
+  justify-items: center;
+}
+
+.portfolio-item {
+  border-radius: 15px;
+  box-shadow: var(--shadow-md);
+  background: var(--card-bg);
+  border: 1px solid var(--card-border);
+  overflow: hidden;
+  width: 320px;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.portfolio-item:hover {
+  transform: translateY(-5px);
+  box-shadow: var(--shadow-lg);
+}
+
+.portfolio-image {
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 5rem;
+  color: white;
+  position: relative;
+}
+
+.portfolio-icon {
+  position: relative;
+  z-index: 2;
+}
+
+.portfolio-info {
+  padding: 1rem 1.5rem 1.5rem;
+  text-align: left;
+}
+
+.portfolio-info h3 {
+  margin: 0 0 0.6rem;
+}
+
+.portfolio-info p {
+  color: var(--text-secondary);
+  margin-bottom: 0.6rem;
+}
+
+.portfolio-tag {
+  background: var(--accent-gradient);
+  color: white;
+  padding: 0.3rem 0.9rem;
+  border-radius: 15px;
+  font-size: 0.85rem;
+}
+.portfolio-links {
+  display: flex;
+  gap: 1rem;
+  margin-top: 0.5rem;
+}
