@@ -21,7 +21,7 @@ const Navbar = () => {
           {/* Replace emoji below with img tag for real logo */}
           <span role="img" aria-label="rocket" className="logo-icon">🚀</span>
           {/* For image logo: <img src={process.env.PUBLIC_URL + "/logo.jpg"} alt="Logo" className="logo-img" /> */}
-          <span>DigitalHub</span>
+          <span>Code-X </span>
         </div>
         <button
           className="nav-toggle"
